@@ -1,27 +1,72 @@
-# TicTacToe
+<h1 align="center">Tic Tac Toe Real World Angular App</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
+<p align="center">
+  <a href="https://sonarcloud.io/dashboard?id=jaikanthjay46_book-api-spring" target="_blank">
+    <img alt="Sonar: Coverage" src="https://sonarcloud.io/api/project_badges/measure?project=jaikanthjay46_book-api-spring&metric=coverage" />
+  </a>
+  <a href="https://sonarcloud.io/dashboard?id=jaikanthjay46_book-api-spring" target="_blank">
+    <img alt="Sonar: Maintain" src="https://sonarcloud.io/api/project_badges/measure?project=jaikanthjay46_book-api-spring&metric=sqale_rating" />
+  </a>
+  <a href="https://sonarcloud.io/dashboard?id=jaikanthjay46_book-api-spring" target="_blank">
+    <img alt="Sonar: Dupes" src="https://sonarcloud.io/api/project_badges/measure?project=jaikanthjay46_book-api-spring&metric=duplicated_lines_density" />
+  </a>
+</p>
 
-## Development server
+<p align="center">
+  <a href="#" target="_blank">
+    <img alt="License: Jaikanth J" src="https://img.shields.io/badge/License-Jaikanth J-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/jaikanthjay46" target="_blank">
+    <img alt="Twitter: jaikanthjay46" src="https://img.shields.io/twitter/follow/jaikanthjay46.svg?style=social" />
+  </a>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+> This Repo is a demo of what is the minimum expected out of a Real World Angular App
 
-## Code scaffolding
+## Quick Start
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```sh
+npm install 
+ng serve
+```
+## Run tests
 
-## Build
+```sh
+npm run test 
+// or with coverage
+npm run test:coverage
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### To Do
 
-## Running unit tests
+- [x] Scaffold, Core, Shared and Feature Modules
+- [x] Use normalize.css for reset & write Global SCSS Rules for common components
+- [x] Write HomeFeature Template and CSS
+- [x] Write GameSettingState and update it from HomeComponent
+- [ ] Write Unit Tests for Home Feature
+- [ ] Write GameFeature Template and CSS 
+- [ ] Write Feature Local GameState and update it from GameComponent
+- [ ] Write Feature Local GameSolverService with Strategies and hook it for AI
+- [ ] Write Feature Local Interface - SolverStrategy
+- [ ] Write Feature Local libs SolverStrategies implementing interface SolverStrategy
+- [ ] Write Unit Tests for Game Feature 
+- [x] ESLint, Prettier and StyleLint setup
+- [ ] ESLint, Prettier and StyleLint customise rules
+- [ ] Setup CI/CD (build if only all linting rules pass)
+- [ ] Static Code Analyser Check
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Author
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+👤 **Jaikanth J**
 
-## Further help
+* Twitter: [@jaikanthjay46](https://twitter.com/jaikanthjay46)
+* Github: [@jaikanthjay46](https://github.com/jaikanthjay46)
+* LinkedIn: [@jaikanthjay46](https://linkedin.com/in/jaikanthjay46)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

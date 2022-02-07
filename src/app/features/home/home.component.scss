@@ -1,0 +1,64 @@
+@import '../../../colors.scss';
+
+.card {
+  border-radius: 1.6rem;
+  padding: 2.4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background-color: $semi-dark-navy;
+  box-shadow: inset 0px -0.4rem 0px darken($dark-navy, 5%);
+  text-align: center;
+
+  .btn-group {
+    border-radius: 1.6rem;
+    padding: 0.8rem;
+    background-color: $dark-navy;
+
+    button {
+      background-color: inherit;
+      margin: 0;
+      border-radius: inherit;
+      border: unset;
+      color: $dark-navy;
+      position: relative;
+      svg {
+        transform: scale(0.5);
+        path {
+
+          fill: $silver-color;
+        }
+      }
+
+      &:hover, &:active {
+        background-color: lighten($dark-navy, 5%) ;
+
+      }
+
+      &.active {
+        background-color: $silver-color;
+        svg {
+          path {
+            fill: $dark-navy;
+          }
+        }
+        transition: all 200ms ease-in-out;
+      }
+
+      .blox {
+        background-color: #A8BFC9;
+        position: absolute;
+        width: 100%;
+        content: '';
+        left: 0;
+        top: 0;
+        height: 100%;
+        border-radius: 1.6rem;
+      }
+    }
+  }
+}
+
+button {
+  width: 100%;
+  margin-bottom: 2rem;
+}
